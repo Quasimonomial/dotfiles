@@ -1,4 +1,7 @@
-## Max osx settings
+## Quasi's Mac Osx Setup
+
+Loosely Following [this](https://sourabhbajaj.com/mac-setup/) Guide
+
 
 ### Reference
 Useful Dot File Links
