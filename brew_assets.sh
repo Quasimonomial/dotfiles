@@ -2,7 +2,7 @@
 brew install \
   git \
   gource \
-  heroku \
+  heroku/brew/heroku \
   node \
   nvm \
   sqlite \
