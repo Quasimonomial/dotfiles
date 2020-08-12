@@ -24,7 +24,6 @@ brew cask install \
   android-file-transfer \
   appcleaner \
   cheatsheet \
-  colloquy \
   docker \
   dropbox \
   google-chrome \
@@ -40,7 +39,6 @@ brew cask install \
   android-messages \
   anki \
   atom \
-  bear \
   chromium \
   deluge \
   discord \
@@ -65,4 +63,4 @@ brew cask install \
   teamviewer \
   telegram \
   whatsapp \
-  zoom \
+  zoom
