@@ -1,7 +1,6 @@
 # From my previous install
 brew install \
   git \
-  gource \
   heroku/brew/heroku \
   node \
   nvm \
@@ -45,7 +44,6 @@ brew cask install \
   evernote \
   firefox \
   homebrew/cask-drivers/logitech-options \
-  iterm2 \
   karabiner-elements \
   keka \
   licecap \
@@ -63,4 +61,18 @@ brew cask install \
   teamviewer \
   telegram \
   whatsapp \
+  visual-studio-code \
   zoom
+
+# Terminal
+brew cask install \
+  iterm2 \
+  zsh
+
+# Command Line Tools
+brew install \
+  gource \
+  tree
+
+# You need this font for iterm2 setup step
+brew tap homebrew/cask-fonts && brew cask install font-source-code-pro
