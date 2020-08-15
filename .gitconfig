@@ -1,0 +1,51 @@
+[user]
+	name = Travis Herrick
+	email = quasimonomial@gmail.com
+
+[alias]
+	cm = commit -m
+	co = checkout
+	cob = checkout -b
+	st = status
+
+	# List aliases.
+	aliases = config --get-regexp alias
+
+	# List contributors with number of commits.
+	contributors = shortlog --summary --numbered
+
+	# Credit an author on the latest commit.
+	credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
+
+	# View abbreviated SHA, description, and history graph of the latest 20 commits.
+	log-pretty = log --pretty=oneline -n 20 --graph --abbrev-commit
+
+	# Remove branches that have already been merged with main.
+	prune-merged-branches = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+
+	# destroy all recent changes
+	slay-commit = !git add -A  && git reset --hard && echo die commit die
+
+[branch]
+	sort = -committerdate
+
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = cyan
+
+[help]
+	autocorrect = 1
