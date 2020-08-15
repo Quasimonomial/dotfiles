@@ -8,6 +8,14 @@
   * `xcode-select —install`
 3. Set osx preferences
   * `sh .osx.sh`
+4. Set up Brew and install packages
+  * `sh brew_setup.sh` -> This installs brew and sets up the path properly
+  * You will need a new terminal session for brew to work
+  * Then run `sh brew_assets.sh` --> this installs all of my preferred programs
+5. Install these separately, as they do not have brew installs
+  * [bear](https://bear.app/)
+  * [OSX Applescript handler to open magnet URLs in Deluge.app](https://github.com/Lord-Kamina/Deluge-Magnet-Handler)
+6. Set up Mouse and Keyboard with Logitech Options and Karabiner
 
 Loosely Following [this](https://sourabhbajaj.com/mac-setup/) Guide
 
