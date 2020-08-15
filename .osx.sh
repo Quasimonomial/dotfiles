@@ -68,8 +68,8 @@ defaults write com.apple.spotlight orderedItems -array \
 	'{"enabled" = 0;"name" = "BOOKMARKS";}' \
 	'{"enabled" = 0;"name" = "MUSIC";}' \
 	'{"enabled" = 0;"name" = "MOVIES";}' \
-	'{"enabled" = 0;"name" = "FONTS";}' \
-	'{"enabled" = 0;"name" = "MENU_OTHER"S";}'
+	'{"enabled" = 0;"name" = "FONTS";}'
+	'{"enabled" = 0;"name" = MENU_OTHER";}'
 
 #-----------------------------------------------------------------------------#
 # Language and Region                                                         #
@@ -252,10 +252,6 @@ defaults write com.apple.screencapture type -string "png"
 
 # Disable shadow in screenshots
 defaults write com.apple.screencapture disable-shadow -bool true
-
-###############################################################################
-# BOPL                                                                        #
-###############################################################################
 
 
 
