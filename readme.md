@@ -1,5 +1,14 @@
 ## Quasi's Mac Osx Setup
 
+### Instructions
+
+1. Update the operating system
+  * `sudo softwareupdate --install --all --restart`
+2. Install the xcode tools
+  * `xcode-select —install`
+3. Set osx preferences
+  * `sh .osx.sh`
+
 Loosely Following [this](https://sourabhbajaj.com/mac-setup/) Guide
 
 
