@@ -116,7 +116,8 @@ sudo systemsetup -setcomputername "Aquarius Dreamscape"
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # Disable local Time Machine backups
-hash tmutil &> /dev/null && sudo tmutil stopbackup
+# This is updated from the command I found and may require additional privileges
+hash tmutil &> /dev/null && sudo tmutil disable
 
 ###############################################################################
 # Top Menu                                                                    #
