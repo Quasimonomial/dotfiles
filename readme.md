@@ -16,6 +16,10 @@
   * [bear](https://bear.app/)
   * [OSX Applescript handler to open magnet URLs in Deluge.app](https://github.com/Lord-Kamina/Deluge-Magnet-Handler)
 6. Set up Mouse and Keyboard with Logitech Options and Karabiner
+7. Set up iterm2
+  * use `iterm_quasi.json` and import the profile and set it as default
+  * additional color schemes [here](https://github.com/mbadolato/iTerm2-Color-Schemes)
+  * run `curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash` to enable [shell integration](https://www.iterm2.com/documentation-shell-integration.html)
 
 Loosely Following [this](https://sourabhbajaj.com/mac-setup/) Guide
 
