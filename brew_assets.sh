@@ -35,6 +35,7 @@ brew cask install \
 
 # My Personal Apps
 brew cask install \
+  activitywatch \
   android-messages \
   anki \
   atom \
@@ -71,8 +72,12 @@ brew cask install \
 
 # Command Line Tools
 brew install \
+  bash-completion \
   gource \
   tree
 
 # You need this font for iterm2 setup step
 brew tap homebrew/cask-fonts && brew cask install font-source-code-pro
+
+# Config
+brew services start postgresql
