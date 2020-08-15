@@ -26,6 +26,7 @@
   * Set up SSH
   * run `cp ./.gitconfig ~/.gitconfig` for aliases and config
   * run `cp ./.gitignore ~/.gitignore` for aliases and config
+9. Go through installed apps and configure them / log in / grant permissions / etc
 
 Loosely Following [this](https://sourabhbajaj.com/mac-setup/) Guide
 
