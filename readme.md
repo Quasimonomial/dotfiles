@@ -21,11 +21,11 @@
   * run `curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash` to enable [shell integration](https://www.iterm2.com/documentation-shell-integration.html)
   * run `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` to install [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
     * this can be uninstalled with `uninstall_oh_my_zsh`
-  * Faff about with your ohmyzsh settings for about an hour
+  * Faff about with your `ohmyzsh` settings for about an hour
 8. Set up git
   * Set up SSH
   * run `cp ./.gitconfig ~/.gitconfig` for aliases and config
-  * run `cp ./.gitignore ~/.gitignore` for aliases and config
+  * run `cp ./.gitignore ~/.gitignore` for ignoring various system files by default
 9. Go through installed apps and configure them / log in / grant permissions / etc
 
 Loosely Following [this](https://sourabhbajaj.com/mac-setup/) Guide

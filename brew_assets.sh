@@ -1,6 +1,5 @@
 # Command Line Tools
 brew install \
-  bash-completion \
   git \
   gource \
   heroku/brew/heroku \
@@ -20,6 +19,7 @@ brew cask install \
   appcleaner \
   anki \
   atom \
+  caprine \
   cheatsheet \
   chromium \
   discord \
@@ -28,6 +28,7 @@ brew cask install \
   evernote \
   firefox \
   flux \
+  gpodder \
   google-chrome \
   homebrew/cask-drivers/logitech-options \
   karabiner-elements \
@@ -53,7 +54,7 @@ brew cask install \
   valentina-studio \
   visual-studio-code \
   vlc \
-  zoom
+  zoomus
 
 # quicklook packages
 brew cask install \
@@ -71,6 +72,20 @@ brew cask install \
 
 # You need this font for iterm2 setup step
 brew tap homebrew/cask-fonts && brew cask install font-source-code-pro
+
+# Completion packages
+brew install \
+  bash-completion \
+  bundler-completion \
+  django-completion \
+  docker-completion \
+  docker-compose-completion \
+  gem-completion \
+  pip-completion \
+  rails-completion \
+  ruby-completion \
+  yarn-completion \
+  zsh-completion
 
 # Config
 brew services start postgresql
