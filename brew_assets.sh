@@ -5,6 +5,7 @@ brew install \
   heroku/brew/heroku \
   node \
   nvm \
+  rbenv \
   sqlite \
   tree \
   yarn \
@@ -85,7 +86,8 @@ brew install \
   rails-completion \
   ruby-completion \
   yarn-completion \
-  zsh-completion
+  zsh-autosuggestions \
+  zsh-completion \
 
 # Config
 brew services start postgresql
