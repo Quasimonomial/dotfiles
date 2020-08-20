@@ -1,15 +1,18 @@
 # Command Line Tools
 brew install \
+  bower \
   git \
   gource \
+  gpg2 \
   heroku/brew/heroku \
   node \
   nvm \
-  rbenv \
+  pyenv \
   sqlite \
   tree \
   yarn \
-  youtube-dl
+  youtube-dl \
+  zlib
 
 # My Personal Apps
 brew cask install \
@@ -40,6 +43,7 @@ brew cask install \
   psequel \
   rectangle \
   scrivener \
+  skim \
   skype \
   slack \
   sloth \
