@@ -95,3 +95,7 @@ brew install \
 
 # Config
 brew services start postgresql
+ 
+# Install Mongodb
+tap mongodb/brew
+brew install mongodb-community
