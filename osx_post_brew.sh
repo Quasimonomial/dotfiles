@@ -2,6 +2,11 @@
 # General                                                                     #
 #-----------------------------------------------------------------------------#
 
+
+# Services
+brew services start mongodb-community
+brew services start postgresql
+
 # Decrease the Delay, this program is still pretty finicky
 defaults write com.mediaatelier.CheatSheet delay 0.5
 

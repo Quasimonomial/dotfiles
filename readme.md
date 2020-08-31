@@ -27,7 +27,8 @@
   * run `cp ./.gitconfig ~/.gitconfig` for aliases and config
   * run `cp ./.gitignore ~/.gitignore` for ignoring various system files by default
 9. Go through installed apps and configure them / log in / grant permissions / etc
-10. Open Docker and run the install
+10. Open Docker and run the install scripts
+11. Set up your blackhole audio driver so you can route audio to OBS, [this tutorial](https://www.youtube.com/watch?v=miexiUIusts) is pretty good
 
 Loosely Following [this](https://sourabhbajaj.com/mac-setup/) Guide
 

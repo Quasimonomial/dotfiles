@@ -23,6 +23,7 @@ brew cask install \
   appcleaner \
   anki \
   atom \
+  blackhole \
   calibre \
   caprine \
   cheatsheet \
@@ -59,8 +60,7 @@ brew cask install \
   whatsapp \
   valentina-studio \
   visual-studio-code \
-  vlc \
-  zoomus
+  vlc
 
 # quicklook packages
 brew cask install \
@@ -97,7 +97,3 @@ brew install \
 # Install Mongodb
 tap mongodb/brew
 brew install mongodb-community
-
-# Services
-brew services start mongodb-community
-brew services start postgresql
