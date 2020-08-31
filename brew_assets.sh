@@ -7,6 +7,7 @@ brew install \
   heroku/brew/heroku \
   node \
   nvm \
+  pipenv \
   pyenv \
   sqlite \
   tree \
@@ -17,12 +18,12 @@ brew install \
 # My Personal Apps
 brew cask install \
   activitywatch \
-  alfred \
   android-file-transfer \
   android-messages \
   appcleaner \
   anki \
   atom \
+  calibre \
   caprine \
   cheatsheet \
   chromium \
@@ -92,10 +93,11 @@ brew install \
   yarn-completion \
   zsh-autosuggestions \
   zsh-completion \
-
-# Config
-brew services start postgresql
  
 # Install Mongodb
 tap mongodb/brew
 brew install mongodb-community
+
+# Services
+brew services start mongodb-community
+brew services start postgresql
