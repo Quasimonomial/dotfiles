@@ -12,7 +12,7 @@
   * `sh brew_setup.sh` -> This installs brew and sets up the path properly
   * You will need a new terminal session for brew to work
   * Then run `sh brew_assets.sh` --> this installs all of my preferred programs
-5. Run `osx)post_brew.sh` to perform additional set up
+5. Run `sh osx_post_brew.sh` to perform additional set up
   * you will need to manually sign into the apple mac store before running this script, as it uses `mas` to install apps from the mac store that can't be installed with brew
 6. Set up Mouse and Keyboard with Logitech Options and Karabiner
 7. Set up iterm2
