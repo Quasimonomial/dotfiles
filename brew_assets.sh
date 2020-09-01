@@ -5,6 +5,7 @@ brew install \
   gource \
   gpg2 \
   heroku/brew/heroku \
+  mas \
   node \
   nvm \
   pipenv \

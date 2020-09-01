@@ -25,6 +25,11 @@ rvm pkg install openssl
 # https://hub.docker.com/r/mdouchement/zoom-us
 docker pull mdouchement/zoom-us:latest
 
+#-----------------------------------------------------------------------------#
+# Install App Store Apss                                                      #
+#-----------------------------------------------------------------------------#
+
+mas install 1091189122 # installs bear (note taking app)
 
 #-----------------------------------------------------------------------------#
 # Python                                                                      #
