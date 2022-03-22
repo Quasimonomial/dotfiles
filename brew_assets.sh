@@ -11,6 +11,7 @@ brew install \
   pipenv \
   pyenv \
   sqlite \
+  stripe/stripe-cli/stripe \
   tree \
   yarn \
   youtube-dl \
@@ -38,6 +39,7 @@ brew cask install \
   gpodder \
   google-chrome \
   homebrew/cask-drivers/logitech-options \
+  intellij-idea \
   karabiner-elements \
   keka \
   licecap \
@@ -52,7 +54,6 @@ brew cask install \
   sloth \
   spectacle \
   spotify \
-  spotify-now-playing \
   steam \
   suspicious-package \
   teamviewer \
@@ -94,7 +95,7 @@ brew install \
   yarn-completion \
   zsh-autosuggestions \
   zsh-completion \
- 
+
 # Install Mongodb
 tap mongodb/brew
 brew install mongodb-community
